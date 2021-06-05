@@ -10,6 +10,7 @@ For generateUN parameter, lChoice represents a chosen list to pull the random no
     3 --> Star Wars
     4 --> Marvel 
     5 --> Harry Potter
+	6 --> Toy Story
 
     The program can be run without a parameter and will default to the general nouns list.
     A second argument can be used to specify how many usernames to generate in a list.
@@ -33,7 +34,7 @@ def generateUN(lChoice=0, requiredNumber=1):
         else:
             randNoun = len(choices[lChoice])
             noun = choices[lChoice][randint(0,randNoun)].rstrip()
-        adj = adjectives[randint(0,len(adjectives))].rstrip()
+        adj = adjectives[randint(0,len(adjectives)-1)].rstrip()
         num = randint(1,999)
         username = adj+noun+str(num)
         usernames.append(username)
@@ -41,4 +42,8 @@ def generateUN(lChoice=0, requiredNumber=1):
         usernames = usernames[0] # preventing the output from returning an array
     return usernames
 
-print(generateUN(1))
+print(generateUN(6))
+
+# adding a new list
+#from collectingDataFromLists import makelist
+#makelist()

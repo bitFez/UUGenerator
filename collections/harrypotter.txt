@@ -5,7 +5,7 @@ ChoChang
 GinnyWeasley
 LunaLovegood
 SeverusSnape
-AlbusDumbledore.
+AlbusDumbledore
 NevilleLongbottom
 MinervaMcGonagall
 AberforthDumbledore
@@ -72,7 +72,7 @@ PansyParkinson
 MadameMaxime
 MadameRosmerta
 Hagrid
-BartyCrouchSr.
+BartyCrouchSr
 BartemiusCrouchJr
 Firenze
 Grawp

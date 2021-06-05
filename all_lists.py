@@ -3,7 +3,7 @@ lotr = open('collections/lotr.txt', 'r')
 starwars= open('collections/starwars.txt', 'r')
 marvel= open('collections/marvel.txt', 'r')
 harrypotter = open('collections/harrypotter.txt', 'r') 
-
+toystory=open('collections/toystory.txt', 'r')
 
 choices = {
 	1:list(countries),
@@ -11,5 +11,6 @@ choices = {
 	3:list(starwars),
 	4:list(marvel),
 	5:list(harrypotter),
+	6:list(toystory),
 
 }
