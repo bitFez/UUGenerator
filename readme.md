@@ -7,7 +7,7 @@ The website is currently a work in progress: http://booqmarq.tk or bqmq.tk
 Would definitely welcome any help/ideas from others, especially in collating more lists.
 
 ## credit to
-based on the idea of creating random usernames from jimpix.com and another Python Library, http://pypi.org/project/random-username by williexu.
+based on the idea of creating random usernames from https://jimpix.co.uk/ and another Python Library, http://pypi.org/project/random-username by williexu.
 
 Lists taken from:
 - https://www.listchallenges.com/
