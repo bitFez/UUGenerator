@@ -42,7 +42,7 @@ def generateUN(lChoice=0, requiredNumber=1):
         usernames = usernames[0] # preventing the output from returning an array
     return usernames
 
-print(generateUN(6))
+print(generateUN(6,3))
 
 # adding a new list
 #from collectingDataFromLists import makelist

@@ -20,3 +20,4 @@ Lists taken from:
 - read all files from collections folder via a startup script as opposed to manually adding each list into the choices dictionary in the all_lists.py file.
 - upload as a library to PyPi
 - Clear up really obscure names from lists?
+- consider limiting usernames to 12 characters long
