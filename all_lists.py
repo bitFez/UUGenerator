@@ -17,7 +17,6 @@ def getFiles():
 			newlist = f.readlines()
 			choices.update({num:list(newlist)})
 		    
-		
 		filesList.update({num:filename}) # create file list for help command.
 		num+=1 # increment number for the key
 		
