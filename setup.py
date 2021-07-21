@@ -7,7 +7,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "readme.md").read_text()
 HISTORY = (HERE / "history.md").read_text()
 
-VERSION = '0.1.13'
+VERSION = '0.1.14'
 DESCRIPTION = 'Simple Python Library to generate random usernames for websites.'
 LONG_DESCRIPTION = README + '\n\n' + HISTORY
 
@@ -30,7 +30,9 @@ setup_args = dict(
     ]
 )
 
-install_requires=[]
+install_requires=[
+    'importlib-resources'
+]
 
 if __name__== '__main__':
     setup(**setup_args, 

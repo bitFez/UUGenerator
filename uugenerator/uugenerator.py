@@ -24,12 +24,15 @@ else:
     # importlib.resources has files(), so use that:
     import importlib.resources as importlib_resources
 
-
+pkg = importlib_resources.files("uugenerator")
 # collecting lists of nouns and adjectives
-nounsFile = open('nouns.txt', 'r')
-nouns=list(nounsFile)
-adjFile = open('adjectives.txt', 'r')
-adjectives=list(adjFile)
+
+nounsTxtFile = pkg / "nouns.txt"
+with nounsTxtFile.open() as nounsFile:
+	nouns=list(nounsFile)
+adjectivesTxtFile = pkg / "adjectives.txt"
+with adjectivesTxtFile.open() as adjFile:
+	adjectives=list(adjFile)
 
 getFiles() # loads lists of text files from the collections folder.
 

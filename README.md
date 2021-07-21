@@ -19,6 +19,8 @@ Lists taken from:
 - ~~Add optional parameter to list a number of generated usernames~~
 - ~~read all files from collections folder via a startup script as opposed to manually adding each list into the choices dictionary in the all_lists.py file.~~
 - ~~consider limiting usernames to 12 characters long~~
+- Add optional parameter to choose maximum length of username
+- Testing the module in test.PyPI has resulted in difficulties reading text files. Maybe convert to .py files & seperate files not needed to generate them from the distribution.
 - upload as a library to PyPi
 - Create help command to display list of options
 - Clear up really obscure names from lists?
