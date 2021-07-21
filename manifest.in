@@ -1,0 +1,2 @@
+include uugenerator/*.txt
+recursive-include uugenerator/*.txt
