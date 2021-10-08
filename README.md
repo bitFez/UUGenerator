@@ -1,7 +1,7 @@
 # Ultimate Username Generator (uugenerator)
 Simple Python Library to generate random usernames for websites.
 Originally put together to integrate into a Django website that would create random usernames for a website aimed at students ensuring anonimity of where younger target audience may be the case.
-The website is currently a work in progress: http://booqmarq.tk or bqmq.tk
+The website is currently a work in progress: http://booqmarq.tk or http://bqmq.tk
 
 ## Collaboration
 Would definitely welcome any help/ideas from others, especially in collating more lists.
